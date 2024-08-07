@@ -8,8 +8,8 @@ let currentPlaylistId = ''; // Variable para almacenar el ID de la playlist actu
 // Lista de playlists (para el carrusel)
 const playlists = [
     {
-        id: 'PLFatPzwEN2vI1p-WDBJCr4F5npFSqfye7',
-        title: 'Top DJS Show',
+        id: 'PLq2wg7YI4HgK6X6KzaMfuDOHg6461rrqj',
+        title: 'Festivales',
         thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6ryQNdszQnI5nlEjV6Jjxt7O8Zd7e4N65Dg&s'
     },
     {
