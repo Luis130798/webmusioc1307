@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let remixPlaylistLoadedCount = 15;
 
     // Load playlists
-    loadPlaylist('songs.csv', playlist, 'playlist', false);
+    loadPlaylist('lista de mixes locales/songs.csv', playlist, 'playlist', false);
     loadPlaylist('songsremix.csv', remixPlaylist, 'playlist-remix', true);
 
     loadMorePlaylistBtn.addEventListener('click', function() {
