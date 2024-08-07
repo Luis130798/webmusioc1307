@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixcloud Style Video Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <div class="carousel-container">
+            <div class="carousel" id="playlistCarousel">
+                <!-- Thumbnails for playlists will be dynamically generated here -->
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="main-video-container" id="mainVideoContainer">
+                <div id="playerContainer">
+                    <div id="player"></div>
+                </div>
+                <div id="videoTitle" class="video-title-container"></div>
+                <button id="toggleListButton" class="toggle-list-button" onclick="toggleVideoList()">⇔</button>
+            </div>
+            <div class="video-list-container" id="videoListContainer">
+                <div class="video-list" id="videoList">
+                    <!-- Thumbnails will be dynamically generated here -->
+                </div>
+                <button id="showMoreButton" class="show-more-button" onclick="loadMoreVideos()">↓ Mostrar más</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+</body>
+</html>

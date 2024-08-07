@@ -1,0 +1,2 @@
+const API_KEY = 'AIzaSyDtLaCNjVFK9dS1SVxNaTgxYeyoPyRhbH8'; // Reemplaza con tu clave de API de YouTube
+const playlistId = 'PLFatPzwEN2vImGLFV0NcAaspaM3HSLIl_'; // Reemplaza con el ID de tu playlist de YouTube
